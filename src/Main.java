@@ -1,3 +1,4 @@
+import Array.Array;
 import Helloworld.Helloworld;
 import Loops.Loops;
 import Types.*;
@@ -26,5 +27,9 @@ public class Main {
 
         System.out.println(ok);
         Helloworld.helloworld();
+
+        System.out.println();
+
+        Array.array();
     }
 }
