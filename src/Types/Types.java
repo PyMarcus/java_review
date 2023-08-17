@@ -3,6 +3,7 @@ package Types;
 public class Types{
     public void type(){
         final int PI = 3;
+        long xxx = 22222L;
         int num = 3;
         double num2 = 2.2;
         float num3 = 3.3f;
@@ -15,6 +16,6 @@ public class Types{
                            ok + " " +
                            true + " " +
                            (int) num2 +
-                           " " + PI);
+                           " " + PI + xxx);
     }
 }
