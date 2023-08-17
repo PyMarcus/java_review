@@ -1,6 +1,7 @@
 import Helloworld.Helloworld;
 import Types.*;
 import Aritmethic.Aritmethic;
+import If_Else.IfElse;
 
 public class Main {
     static final String ok = "KOK";
@@ -17,6 +18,9 @@ public class Main {
         t.type();
         Aritmethic.solve();
         Aritmethic.logical();
+
+        IfElse.ifelse();
+
         System.out.println(ok);
         Helloworld.helloworld();
     }
