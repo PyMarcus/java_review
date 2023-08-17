@@ -1,4 +1,5 @@
 import Helloworld.Helloworld;
+import Loops.Loops;
 import Types.*;
 import Aritmethic.Aritmethic;
 import If_Else.IfElse;
@@ -20,6 +21,8 @@ public class Main {
         Aritmethic.logical();
 
         IfElse.ifelse();
+
+        Loops.loop();
 
         System.out.println(ok);
         Helloworld.helloworld();
